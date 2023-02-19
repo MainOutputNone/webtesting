@@ -1,7 +1,8 @@
 <h1 align="center">webtesting</h1>
 
-<img src=".img/ia-img-1.png" alt="AI Sureal Womem logo" align="center" width="224px" height="224px" />
-
+<p align="center">
+  <img src=".img/ia-img-1.png" alt="AI Sureal Womem logo" width="224px" height="224px" />
+</p>
 ### Apresentação
 
 ###
