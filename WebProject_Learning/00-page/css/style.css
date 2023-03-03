@@ -1,0 +1,39 @@
+/* Importando a fonte do Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Aplicando estilo ao body */
+body {
+  background-color: #f2f2f2; /* fundo cinza moderno */
+  font-family: 'Poppins', sans-serif; /* fonte do Google */
+}
+
+/* Aplicando estilo aos títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif; /* fonte do Google */
+}
+
+/* Aplicando estilo ao texto */
+p {
+  font-family: 'Poppins', sans-serif; /* fonte do Google */
+}
+
+/* Aplicando estilo às tabelas */
+table {
+  background-color: #f8f8f8; /* fundo cinza claro */
+  border: 1px solid #ddd; /* borda clara */
+  border-collapse: collapse; /* colapso da borda */
+  width: 100%; /* largura total da tabela */
+}
+
+/* Aplicando estilo às células */
+th, td {
+  padding: 15px; /* espaçamento interno */
+  text-align: left; /* alinhamento à esquerda */
+}
+
+/* Aplicando estilo às células do cabeçalho */
+th {
+  background-color: #f2f2f2; /* fundo cinza moderno */
+  border: 1px solid #ddd; /* borda clara */
+}
+
