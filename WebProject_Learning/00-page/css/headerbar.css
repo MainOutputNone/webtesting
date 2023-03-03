@@ -6,6 +6,7 @@
   justify-content: center; /* centraliza horizontalmente */
   align-items: center; /* centraliza verticalmente */
   height: 50px; /* altura do menu */
+  font-family: Roboto, sans-serif;
 }
 
 /* estilo para os links do menu */
@@ -13,7 +14,6 @@
   color: #fff; /* cor do texto do link */
   text-decoration: none; /* remove a sublinhado padrão */
   margin: 0 20px; /* espaçamento horizontal entre os links */
-  font-weight: bold; /* deixa o texto em negrito */
 }
 
 /* estilo para o link ativo no menu */
@@ -27,5 +27,6 @@
   margin-right: auto; /* coloca o logo à esquerda */
   margin-left: 20px; /* espaço à direita do logo */
   font-weight: bold; /* deixa o texto em negrito */
+  font-family: Roboto, sans-serif;
 }
 

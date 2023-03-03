@@ -1,6 +1,8 @@
 /* Importando a fonte do Google */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+* CSS Stylesheet feito com auxilio do ChatGPT*/
 /* Aplicando estilo ao body */
 body {
   background-color: #f2f2f2; /* fundo cinza moderno */
@@ -35,5 +37,25 @@ th, td {
 th {
   background-color: #f2f2f2; /* fundo cinza moderno */
   border: 1px solid #ddd; /* borda clara */
+}
+
+/* Estilo do elemento article */
+article {
+  background-color: #f2f2f2; /* fundo cinza moderno */
+  font-family: 'Roboto', sans-serif; /* fonte do Google */
+  padding: 20px; /* espaçamento interno */
+  margin: 20px 0; /* espaçamento externo */
+  border-radius: 5px; /* borda arredondada */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* sombra */
+}
+
+/* Estilo dos títulos dentro do elemento article */
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-family: 'Roboto', sans-serif; /* fonte do Google */
+}
+
+/* Estilo do texto dentro do elemento article */
+article p {
+  font-family: 'Roboto', sans-serif; /* fonte do Google */
 }
 
