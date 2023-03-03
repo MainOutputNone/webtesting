@@ -1,32 +1,34 @@
-/* estilo para o container do menu */
+/* Estilos da headerbar */
 .headerbar {
-  background-color: #333; /* cor de fundo do menu */
-  color: #fff; /* cor do texto do menu */
-  display: flex; /* display flex para centralizar */
-  justify-content: center; /* centraliza horizontalmente */
-  align-items: center; /* centraliza verticalmente */
-  height: 50px; /* altura do menu */
-  font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 20px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
-/* estilo para os links do menu */
+/* Estilos dos links da headerbar */
 .headerbar a {
-  color: #fff; /* cor do texto do link */
-  text-decoration: none; /* remove a sublinhado padrão */
-  margin: 0 20px; /* espaçamento horizontal entre os links */
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
 }
 
-/* estilo para o link ativo no menu */
-.headerbar a.active {
-  text-decoration: underline; /* adiciona sublinhado ao link ativo */
+.headerbar a:hover {
+  color: #7b7b7b;
 }
 
-/* estilo para o link do logo */
-.headerbar .logo {
-  font-size: 28px; /* tamanho do texto do logo */
-  margin-right: auto; /* coloca o logo à esquerda */
-  margin-left: 20px; /* espaço à direita do logo */
-  font-weight: bold; /* deixa o texto em negrito */
-  font-family: Roboto, sans-serif;
+/* Estilos das animações dos links da headerbar */
+.headerbar a:focus, .headerbar a:active {
+  transform: scale(0.95);
+  opacity: 0.7;
 }
 
