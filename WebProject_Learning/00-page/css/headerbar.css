@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1c1c1c;
+  background-color: #1f1e1e;
   padding: 20px;
   color: #fff;
   position: fixed;
@@ -34,6 +34,13 @@
 
 h2 {
   font-family: Roboto, sans-serif;
-  color: #1c1c1c;
+  color: #999999;
 }
 
+ol, ul {
+  color: #999999;
+}
+
+li {
+  accent-color: #a3a2a2;
+}

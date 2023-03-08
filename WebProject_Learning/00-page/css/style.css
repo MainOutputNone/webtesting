@@ -5,26 +5,30 @@
 * CSS Stylesheet feito com auxilio do ChatGPT*/
 /* Aplicando estilo ao body */
 body {
-  background-color: #f2f2f2; /* fundo cinza moderno */
+  /*background-color: #f2f2f2; /* fundo cinza moderno */
+  background-color: #1a1a1a;
   font-family: 'Poppins', sans-serif; /* fonte do Google */
 }
 
 /* Aplicando estilo aos títulos */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif; /* fonte do Google */
+  font-family: 'Poppins', sans-serif;
+  color: #999999;/* fonte do Google */
 }
 
 /* Aplicando estilo ao texto */
 p {
-  font-family: 'Poppins', sans-serif; /* fonte do Google */
+  font-family: 'Poppins', sans-serif;/* fonte do Google */
+  color: #a3a2a2;
 }
 
 /* Aplicando estilo às tabelas */
 table {
-  background-color: #f8f8f8; /* fundo cinza claro */
-  border: 1px solid #ddd; /* borda clara */
+  background-color: #1c1c1c; /* fundo cinza claro */
+  border: 1px solid #a3a2a2; /* borda clara */
   border-collapse: collapse; /* colapso da borda */
   width: 100%; /* largura total da tabela */
+  color: #8c8c8c;
 }
 
 /* Aplicando estilo às células */
@@ -35,13 +39,14 @@ th, td {
 
 /* Aplicando estilo às células do cabeçalho */
 th {
-  background-color: #f2f2f2; /* fundo cinza moderno */
-  border: 1px solid #ddd; /* borda clara */
+  background-color: #1f1e1e; /* fundo cinza moderno */
+  border: 1px solid #a3a2a2; /* borda clara */
 }
 
 /* Estilo do elemento article */
 article {
-  background-color: #f2f2f2; /* fundo cinza moderno */
+  /*background-color: #f2f2f2; /* fundo cinza moderno */
+  background-color: #212121;
   font-family: 'Roboto', sans-serif; /* fonte do Google */
   padding: 20px; /* espaçamento interno */
   margin: 20px 0; /* espaçamento externo */
